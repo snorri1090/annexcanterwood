@@ -1,0 +1,44 @@
+/*
+ Theme Name:   Twentythirteen Child
+ Theme URI:    https://wordpress.com/themes/sela/
+ Description:  Twentythirteen Child Theme
+ Author:       Scott Norris
+ Template:     twentythirteen
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  
+ Tags:         
+ Text Domain:  twentythirteen-child
+*/
+
+@import url("../twentythirteen/style.css");
+ 
+h1.site-title, h2.site-description {
+	color: #000;
+	text-shadow: 0 3px 4px #fff;
+}
+
+.entry-header, .entry-content, .entry-summary, .entry-meta {
+    margin: 0 auto;
+    max-width: 850px;
+    width: 100%;
+}
+
+.signatures {
+    background-color:#f7f5e7;
+    width: 100%;
+    padding: 15px;
+    margin: 3px;
+    border-radius: 6px;
+    shadow-box: 1px 2px 3px #000;
+}
+
+.signatures h2 {
+    text-align: center;
+}
+
+.signatures p {
+    font-size: 10px;
+    color: #333;
+    text-transform:capitalize;
+}
